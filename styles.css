@@ -1,0 +1,81 @@
+body{
+    background-image: url("./library1.jpg");
+    background-size: cover;
+    margin:0;
+}
+
+form{
+    font-family: comfortaa, sans-serif;
+    color: white;
+    background-color: #aa7445da;
+    border-radius:15px;
+    padding: 1%;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 3%;
+}
+
+fieldset{
+    border:0;
+    margin-bottom: 5%;
+}
+
+h1{
+    width:100%;
+    margin-top:1%;
+    margin-bottom: 12%;
+    padding: 1% 0;
+    text-align: center;
+    background-color:#aa7445b3;
+    color: white;
+    font-family: comfortaa, sans-serif;
+}
+
+p{
+    text-align:center;
+}
+
+#name,#email,#number,#textarea,#dropdown{
+    width:100%;
+    border: 0;
+    border-radius: 5px;
+    height: 30px;   
+    font-family: comfortaa, sans-serif;
+    font-size: 11pt;
+}
+
+#name,#email,#textarea{
+    margin-top: 2%;
+    margin-bottom: 5%
+}
+
+#dropdown,#number,#c1,#student{
+    margin-top: 2%;
+}
+
+#textarea{
+    height: 150px;
+}
+
+#c1,#c2,#c3,#student {
+    margin-bottom:2%;
+}
+
+#submit{
+    padding:3%;
+    width:30%;
+    margin-right: 35%;
+    margin-left:35%;
+    margin-bottom: 3%;
+    font-family:comfortaa, sans-serif;
+    font-weight: bold;
+    border: 0;
+    border-radius:7px;
+    background-color:#c44343;
+}
+
+
+
+
+ 
