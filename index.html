@@ -13,20 +13,18 @@
 
   <body>
     <h1 id="title"> University of Theatre Arts <br> Library </h1>
-
-    <div class="container">
     <form id="survey-form">
         <p id="description"> Please let us know how the library can be improved: </p> 
 
-      <div class="info-container">
+      
         <fieldset>
         <label for="name" id="name-label"><u> Name: </u><br><input id="name" name="name" type="text" placeholder="Enter your name" required /> </label> <br>
         <label for="email" id="email-label"><u> Email: </u><br><input id="email" name="email" type="email" placeholder="Enter your Email" required /> </label> <br>
         <label for="number" id="number-label"><u> Age (optional): </u><br><input id="number" name="number" type="number" placeholder="Age" min="13" max="120" /> </label>
       </fieldset>
-      </div>
+   
     
-    <div class="dropdown-container">
+ 
       <fieldset>
         <label for="dropdown"><u>Please select your program:</u><br> 
         <select id="dropdown">
@@ -40,17 +38,17 @@
         </select>
         </label>
       </fieldset>
-    </div>
     
-    <div class="radio-container">
+    
+    
       <fieldset>
         <legend> <u>Select your role: </u></legend>
       <input id="student" name ="role" type="radio" value="student" /><label for="student"> Student </label><br>
        <input id="teacher" name ="role" type="radio" value="teacher" /><label for="teacher"> Teacher </label>
       </fieldset>
-    </div>
+  
     
-      <div class="checkbox-container">
+     
       <fieldset>
         <legend><u> What does the library need? </u></legend>
        <input id="c1" type="checkbox" value="1" /><label for="c1">New books</label><br>
@@ -58,20 +56,17 @@
        <input id="c3" type="checkbox" value="3" /><label for="c3">Online resources and database</label><br>
        <input id="c4" type="checkbox" value="4" /><label for="c4">Study-friendly interior </label><br>
        </fieldset>
-      </div>
+    
       
-      <div class="textarea-container">
+     
        <fieldset>
        <label for="textarea"><u>What do you think should change:</u><br><textarea id="textarea">Tell us more... </textarea> </label>
       </fieldset>
-      </div>
+     
+      <input id="submit" type="submit" value="Submit" />
 
-    <div class="button-container">
-    <button>sdsasdad</button>
-    </div>
-    
     </form>
-  </div>
+ 
 
   </body>
 </html>
